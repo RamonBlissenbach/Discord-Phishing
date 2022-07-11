@@ -1,0 +1,4 @@
+CREATE TABLE `logins` (
+  `MAIL` varchar(255) DEFAULT NULL,
+  `PASSWORD` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
