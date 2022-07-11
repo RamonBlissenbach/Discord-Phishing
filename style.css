@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #5865f2;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Hind', sans-serif;
+    background-color: #36393f;
+    width: 720px;
+    height: 344px;
+    border-radius: 5px;
+    padding: 32px;        
+    flex-direction: row;
+    gap: 60px;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 342.5px;
+}
+
+.content-left h6{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 8px;
+    height: 35px;
+}
+
+.content-left p{
+    color: #b9bbbe;
+    font-size: 16px;
+} 
+
+.content-left .form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.content-left input{
+    background-color: #202225;
+    color: white;
+    outline: none;
+    border: #222428 1px solid;
+    width: 392px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 250ms;
+}
+
+.content-left #mail{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content-left  .form p{
+    color: #b9bbbe;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+    padding-bottom: 8px;
+}
+
+.content-left  .form p .error{
+    font-style: italic;
+    text-transform: initial;
+    font-weight: 400;
+}
+
+
+.content-left .form a{
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.content-left  .form a p{
+    color: #0d91c6;
+    text-transform: initial;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content-left button{
+    width: 100%;
+    height: 50px;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.content-left .register{
+    width: 100%;
+    margin-top: 4px;
+}
+
+.content-left .register a{
+    text-decoration: none;
+    color: #0a98d1;
+    font-weight: 600;
+}
+
+.content-left .register p{
+    color: #6c6f77;
+    font-size: 14px;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 344px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.content-right img{
+    margin-bottom: 32px;
+    border-radius: 5px;
+}
+
+.content-right h6{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 1px;
+    height: 32px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 620;
+}
+
+.content-right h5{
+    margin-bottom: 10px;
+}
+
+.content-right p{
+    color: #a0a3a6;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.content-right p .app{
+    color: #b9bbbe;
+    font-weight: 600;
+}
+
+
+.main-content a:hover{
+    text-decoration: underline #0a98d1;
+}
+
+.main-content button:hover{
+    background-color: rgb(77, 88, 209)
+}
+
+.main-content button:active{
+    background-color: rgb(67, 76, 179)
+}
+
+
+.main-content input:focus{
+    border: #0a98d1 1px solid;
+}
+
+.main-content input:focus:hover{
+    border: #0a98d1 1px solid;
+}
+
+.main-content input:hover{
+    border: black 1px solid;
+}
